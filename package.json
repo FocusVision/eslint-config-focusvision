@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/FocusVision/eslint-config-focusvision/issues"
   },
-  "homepage": "https://github.com/FocusVision/eslint-config-focusvision#readme"
+  "homepage": "https://github.com/FocusVision/eslint-config-focusvision#readme",
+  "peerDependencies": {
+    "eslint": "^2.3.0",
+    "eslint-plugin-react": "^3.5.1"
+  }
 }
