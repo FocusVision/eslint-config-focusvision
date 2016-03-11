@@ -15,7 +15,6 @@ module.exports = {
     'curly': 2,
     'dot-notation': 1,
     'eqeqeq': [2, 'allow-null'],
-    'jsx-quotes': [2, 'prefer-single'],
     'no-constant-condition': 2,
     'no-dupe-args': 2,
     'no-dupe-keys': 2,

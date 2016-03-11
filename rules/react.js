@@ -6,6 +6,7 @@ module.exports = {
     'jsx': true
   },
   'rules': {
+    'jsx-quotes': [2, 'prefer-single'],
     'react/jsx-boolean-value': [1, 'always'],
     'react/jsx-closing-bracket-location': 1,
     'react/jsx-sort-prop-types': [1, { 'ignoreCase': true }],
