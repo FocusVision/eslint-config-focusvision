@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-focusvision",
+  "version": "1.0.0",
+  "description": "ESLint Configuration for FocusVision",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FocusVision/eslint-config-focusvision.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "focusvision",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Jerel Miller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FocusVision/eslint-config-focusvision/issues"
+  },
+  "homepage": "https://github.com/FocusVision/eslint-config-focusvision#readme"
+}
