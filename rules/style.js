@@ -14,8 +14,11 @@ module.exports = {
     'newline-per-chained-call': [0, { 'ignoreChainWithDepth': 3 }],
     'keyword-spacing': [2, { 'before': true, 'after': true }],
     'no-array-constructor': 2,
+    'no-lonely-if': 2,
     'no-nested-ternary': 2,
     'no-new-object': 2,
+    'no-spaced-func': 2,
+    'no-trailing-spaces': 2,
     'no-underscore-dangle': 0,
     'no-unneeded-ternary': 2,
     'object-curly-spacing': [2, 'always', {
@@ -33,6 +36,7 @@ module.exports = {
     'semi': [1, 'never'],
     'space-before-blocks': [2, 'always'],
     'space-infix-ops': 2,
-    'space-in-parens': [2, 'never']
+    'space-in-parens': [2, 'never'],
+    'spaced-comment': [2, 'always']
   }
 }
