@@ -12,8 +12,7 @@ module.exports = {
     }],
     'new-cap': [2, { 'newIsCap': true }],
     'newline-per-chained-call': [0, { 'ignoreChainWithDepth': 3 }],
-    // enable when updating to eslint > 2
-    // 'keyword-spacing': [2, { 'before': true, 'after': true }],
+    'keyword-spacing': [2, { 'before': true, 'after': true }],
     'no-array-constructor': 2,
     'no-nested-ternary': 2,
     'no-new-object': 2,
@@ -32,11 +31,7 @@ module.exports = {
     }],
     'quotes': [2, 'single', 'avoid-escape'],
     'semi': [1, 'never'],
-    // remove when updating to eslint > 2
-    'space-after-keywords': [2, 'always'],
     'space-before-blocks': [2, 'always'],
-    // remove when updating to eslint > 2
-    'space-before-keywords': [2, 'always'],
     'space-infix-ops': 2,
     'space-in-parens': [2, 'never']
   }

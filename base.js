@@ -1,12 +1,13 @@
 module.exports = {
-  'parser': 'babel-eslint',
-  'env': {
-    'browser': true,
-    'node': true
+  parser: 'babel-eslint',
+  env: {
+    browser: true,
+    node: true,
+    es6: true
   },
-  'ecmaFeatures': {
-    'modules': true,
-    'blockBindings': true
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'module'
   },
   extends: [
     'eslint-config-focusvision/rules/bestPractices',
@@ -15,5 +16,5 @@ module.exports = {
     'eslint-config-focusvision/rules/style',
     'eslint-config-focusvision/rules/variables'
   ],
-  'rules': {}
+  rules: {}
 }

@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/FocusVision/eslint-config-focusvision#readme",
   "peerDependencies": {
-    "babel-eslint": "^4.0.5",
-    "eslint": "^1.5.1",
+    "babel-eslint": "^4.1.8",
+    "eslint": "~> 2.2.0",
     "eslint-plugin-react": "^3.5.1"
   }
 }

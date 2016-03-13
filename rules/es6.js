@@ -7,13 +7,10 @@ module.exports = {
     'prefer-const': 2,
     'prefer-template': 2,
     'no-const-assign': 2,
-    // enable when updating to eslint > 2
-    // 'no-useless-constructor': 2,
+    'no-useless-constructor': 2,
     'prefer-arrow-callback': 2,
-    // enable when updating to eslint > 2
-    // 'prefer-rest-params': 2,
+    'prefer-rest-params': 2,
     'no-var': 2,
-    // enable when updating to eslint > 2
-    // 'template-curly-spacing': 2
+    'template-curly-spacing': 2
   }
 }

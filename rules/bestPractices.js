@@ -1,7 +1,6 @@
 module.exports = {
   'rules': {
-    // enable when updating to eslint > 2
-    // 'array-callback-return': 2,
+    'array-callback-return': 2,
     'curly': [2, 'all'],
     'dot-notation': [2, { 'allowKeywords': true }],
     'eqeqeq': [2, 'allow-null'],
