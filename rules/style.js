@@ -20,7 +20,7 @@ module.exports = {
     }],
     'new-cap': [2, {
       'newIsCap': true,
-      'capIsNewExceptions': ['Set']
+      'capIsNewExceptions': ['Set', 'Map', 'List']
     }],
     'new-parens': 2,
     'newline-per-chained-call': [0, { 'ignoreChainWithDepth': 3 }],
