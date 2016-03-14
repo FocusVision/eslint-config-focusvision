@@ -2,6 +2,8 @@
 
 This package provides FocusVision's .eslintrc as an extensible shared config.
 
+[![npm version](https://badge.fury.io/js/eslint-config-focusvision.svg)](https://badge.fury.io/js/eslint-config-focusvision)
+
 ## Usage
 
 We export two ESLint configurations for your usage.
