@@ -47,9 +47,6 @@ module.exports = {
     }],
     'quotes': [2, 'single', 'avoid-escape'],
     'semi': [2, 'never'],
-    'sort-imports': [2, {
-      'memberSyntaxSortOrder': ['none', 'single', 'multiple', 'all']
-    }],
     'space-before-blocks': [2, 'always'],
     'space-before-function-paren': [2, 'never'],
     'space-infix-ops': 2,
