@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "ESLint Configuration for FocusVision",
   "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/FocusVision/eslint-config-focusvision.git"
@@ -20,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/FocusVision/eslint-config-focusvision/issues"
   },
-  "homepage": "https://github.com/FocusVision/eslint-config-focusvision#readme"
+  "homepage": "https://github.com/FocusVision/eslint-config-focusvision#readme",
+  "peerDependencies": {
+    "babel-eslint": "^4.1.8",
+    "eslint": "~> 2.2.0",
+    "eslint-plugin-react": "^4.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.2.0"
+  }
 }
