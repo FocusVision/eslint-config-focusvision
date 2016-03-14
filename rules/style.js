@@ -18,7 +18,10 @@ module.exports = {
       'ignoreComments': true,
       'ignoreUrls': true
     }],
-    'new-cap': [2, { 'newIsCap': true }],
+    'new-cap': [2, {
+      'newIsCap': true,
+      'capIsNewExceptions': ['Set']
+    }],
     'new-parens': 2,
     'newline-per-chained-call': [0, { 'ignoreChainWithDepth': 3 }],
     'no-array-constructor': 2,
