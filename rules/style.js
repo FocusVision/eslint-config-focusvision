@@ -36,7 +36,7 @@ module.exports = {
     'no-unneeded-ternary': 2,
     'no-whitespace-before-property': 2,
     'object-curly-spacing': [2, 'always', {
-      'arraysInObjects': false,
+      'arraysInObjects': true,
       'objectsInObjects': false
     }],
     'one-var': [2, 'never'],
