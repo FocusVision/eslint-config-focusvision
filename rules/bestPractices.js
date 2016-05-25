@@ -32,7 +32,7 @@ module.exports = {
     'no-new-wrappers': 2,
     'no-octal': 2,
     'no-octal-escape': 2,
-    'no-param-reassign': [2, { 'props': true }],
+    'no-param-reassign': [1, { 'props': true }],
     'no-proto': 2,
     'no-redeclare': 2,
     'no-return-assign': [2, 'always'],
